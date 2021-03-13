@@ -1,0 +1,68 @@
+.social li a:hover,
+a.header-top-phone:hover,
+.nav_address a:hover {
+    color: #C0C0C0;
+}
+
+.header-bottom .header-bottom-menu-items a:hover {
+    color: #5db442;
+}
+
+
+button:hover,
+.right-btn:hover {
+    background-color: #90EE90;
+}
+
+.btn:hover,
+.btn.active {
+    background-color: #425c28;
+    color: white;
+}
+
+.price-btn:hover {
+    color: white;
+    background-color: #5db442;
+}
+
+.databox:hover {
+    color: white;
+    background-color: #5db442;
+
+}
+
+.databox:hover .fa-book {
+    color: white;
+}
+
+.databox:hover .fa-bug {
+    color: white;
+}
+
+.databox:hover .fa-cogs {
+    color: white;
+}
+
+.databox:hover .fa-external-link {
+    color: white;
+}
+
+.databox:hover .fa-coffee {
+    color: white;
+}
+
+.databox:hover .fa-pagelines {
+    color: white;
+}
+
+.databox:hover .fa-paper-plane {
+    color: white;
+}
+
+.databox:hover .fa-folder-open {
+    color: white;
+}
+
+footer a:hover {
+    color: #5db442;
+}

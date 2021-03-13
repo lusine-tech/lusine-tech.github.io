@@ -1,0 +1,299 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .ft-main-item {
+    flex: 1;
+  }
+
+  .ft-main-item.first {
+    flex: 2;
+  }
+
+  input[type="email"] {
+    width: 220px;
+  }
+
+  .main-picture {
+    background-position: center center;
+    padding: 0;
+  }
+
+  .main-picture .text-box .transbox {
+    width: 500px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sign-up {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .edition,
+  .complete,
+  .signup {
+    margin: 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-top {
+    height: auto;
+  }
+
+  .allprices {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package {
+    margin-bottom: 10px;
+  }
+
+  .data h2.data-header,
+  .all-packages h2,
+  .data h2.data-header {
+    font-size: 24px;
+  }
+
+  .screen {
+    padding-top: 40px;
+  }
+
+  .all-packages,
+  .analytics {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .alldata {
+    padding: 5px;
+  }
+
+  .databox {
+    flex-basis: 48%;
+    margin: 5px;
+  }
+
+  input[type="email"] {
+    width: 200px;
+  }
+
+  .ft-main {
+    padding-bottom: 0;
+  }
+
+  .ft-main-item {
+    flex: 45%;
+    margin: 10px;
+  }
+
+  .ft-main-item.first {
+    flex: 40%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+
+
+  .header-bottom .header-bottom-menu-items li a {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .second-block {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .header-bottom>div {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .allprices {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .databox {
+    flex-basis: 46%;
+  }
+
+  .package {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding-top: 20px;
+  }
+
+  .ft-title {
+    padding-bottom: 20px;
+  }
+
+  .ft-main {
+    justify-content: center;
+  }
+
+  .ft-main-item.first {
+    flex: 50%;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    top: 43px;
+    padding: 20px 0;
+  }
+
+  .menu li {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .menu div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu a,
+  .menu button {
+    display: block;
+    border-bottom: 1px solid #5db442;
+    margin: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .fa.fa-bars {
+    font-size: 25px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .title_secondary,
+  .data .title_secondary {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .data {
+    max-width: 500px;
+  }
+
+  .main-picture .text-box .transbox {
+    width: 100%;
+  }
+
+
+
+  .ft-main-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ft-legal-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ft-legal-list li {
+    line-height: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .databox {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .email.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-box form {
+    position: relative;
+    text-align: center;
+  }
+
+  .form-box input[type="submit"] {
+    position: absolute;
+    right: -45px;
+    width: auto;
+  }
+
+
+  .dataheader:before {
+    left: 40px;
+  }
+
+  h3.transbox-header {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  i.fa-angle-up,
+  i.fa-angle-down {
+    font-size: 14px;
+  }
+
+  .signup-steps li {
+    line-height: 2;
+    font-size: 12px;
+  }
+
+  .main-picture .text-box .transbox {
+    height: 150px;
+  }
+
+  .circle {
+    padding: 15px;
+  }
+
+  .ft-main-item p {
+    max-width: 300px;
+  }
+
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
